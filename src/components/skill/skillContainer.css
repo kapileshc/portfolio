@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+.skills{
+
+    color: white;
+}
+.skills_header{
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: xx-large;
+}
+
+.skills_sub{
+    list-style-type: none;
+    font-size: large;
+    word-spacing: 20px;
+    text-indent: 1px;
+    
+}
+.skills_sub >li{
+    letter-spacing: 2px;
+}
+
+
+.skills_header > .skills_sub > strong{
+    font-size: 48px;
+}
+
+.topic{
+    text-align: center;
+}
