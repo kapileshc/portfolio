@@ -12,7 +12,7 @@ const Header = () => {
             <h4>About me</h4>
         </Link>
         <Link to='skills' smooth={true} duration={500}>
-            <h4>skills</h4>
+            <h4>Skills</h4>
         </Link>
         <Link to='projects' smooth={true} duration={500}>
             <h4>Projects</h4>
@@ -20,7 +20,7 @@ const Header = () => {
         <Link to='contact' smooth={true} duration={500}>
             <h4>Contact</h4>
         </Link>
-        <h4 className='header_rightButton'>join with me</h4>
+        <h4 className='header_rightButton'>Join with me</h4>
       </div>
   </div>;
 };
